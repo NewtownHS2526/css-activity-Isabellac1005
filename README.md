@@ -63,7 +63,7 @@ Put some content inside (text, image, etc.)
 
 
 
-6-Add two headings (e.g. <h2>) and override their style
+6-Add two headings // (e.g. heading2) // and override their style
 -For example, make them white text on white background (so they disappear) or give them weird alignment
 -Use !important in one rule to override inherited styles
 
