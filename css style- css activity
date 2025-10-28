@@ -1,0 +1,96 @@
+/* Body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 30px;
+  background-color: #f0f0f0;
+}
+
+/* Header styling */
+#header {
+  background-color: #a8dadc;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #457b9d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+/* Override h2 styling */
+h2 {
+  color: #e63946;
+}
+
+/* NEW CONTAINER 1 */
+#container-one {
+  background-color: #f1faee;
+  color: #1d3557;
+  font-family: 'Pacifico', cursive;
+  padding: 20px;
+  margin: 20px 0;
+  border: 3px dashed #457b9d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px lightgray;
+}
+
+/* NEW CONTAINER 2 */
+.container-two {
+  background-color: #ffe5d9;
+  color: #6d6875;
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+  margin: 20px 0;
+  border: 2px solid #e63946;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 4px 4px 10px #888;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for container-two */
+.container-two:hover {
+  transform: rotate(-2deg);
+  box-shadow: 8px 8px 15px #555;
+}
+
+/* Center image inside container-two */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* NEW CONTAINER 3 (inconsistent) */
+#weird-container {
+  background-color: #000000;
+  color: #ff0000;
+  font-family: 'Courier New', monospace;
+  padding: 30px;
+  margin: 20px 0;
+  border: 5px solid yellow;
+  transform: rotate(5deg);
+  text-align: left;
+}
+
+/* Two headings with unusual styles */
+#weird-container h2 {
+  font-size: 50px !important;
+  text-align: right;
+}
+
+/* Additional container */
+.container-three {
+  background-color: #e0fbfc;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #1d3557;
+  border-radius: 5px;
+}
+
+/* Bonus: glow effect for container-one on hover */
+#container-one:hover {
+  box-shadow: 0 0 20px #ff0000;
+}
